@@ -1,0 +1,22 @@
+{
+  "name": "selenium-webdriver",
+  "version": "1.0.0",
+  "description": "WebUI Automated Acceptance Test using Selenium WebDriver + Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagadeeshshetty/selenium-webdriver.git"
+  },
+  "keywords": [
+    "selenium", "webdriver", "test", "automation", "acceptance test"
+  ],
+  "author": "Jagadeesh Cheluvaraj <jagadeesh.cheluvaraj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jagadeeshshetty/selenium-webdriver/issues"
+  },
+  "homepage": "https://github.com/jagadeeshshetty/selenium-webdriver#readme"
+}
