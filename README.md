@@ -6,6 +6,12 @@
 
 ## Release Notes:
 
+### 1.2.0
+- Added `loginTest.js` test case
+    - Scenario
+        - Valid login
+- Updated `npm run test` script to run `mocha` test.
+
 ### 1.1.0
 - Install
     - dependencies `npm i mocha mocha-jenkins-reporter selenium-webdriver system-sleep chromedriver geckodriver`
