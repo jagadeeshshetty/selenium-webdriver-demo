@@ -6,6 +6,9 @@
 
 ## Release Notes:
 
+### 1.3.0
+- Add Travis CI support
+
 ### 1.2.0
 - Added `loginTest.js` test case
     - Scenario
