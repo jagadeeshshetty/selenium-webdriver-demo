@@ -4,6 +4,8 @@
 **If you have WebDriver APIs in your test methods, You're Doing It Wrong.** 
 *-- Simon Stewart.*
 
+[![Build Status](https://travis-ci.org/jagadeeshshetty/selenium-webdriver-demo.svg?branch=master)](https://travis-ci.org/jagadeeshshetty/selenium-webdriver-demo)
+
 ## Release Notes:
 
 ### 1.3.0
