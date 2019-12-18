@@ -8,6 +8,12 @@
 
 ## Release Notes:
 
+### 1.4.0
+- Page Object support
+- Test cases update
+    - 'with valid credentials'
+    - 'with invalid credentials'
+    
 ### 1.3.0
 - Add Travis CI support
 
