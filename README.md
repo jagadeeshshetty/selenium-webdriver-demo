@@ -8,6 +8,10 @@
 
 ## Release Notes:
 
+### 1.5.0
+- Optimize - Page Object support
+    - Abstract selenium common actions into a `BasePage` central place.
+
 ### 1.4.0
 - Page Object support
 - Test cases update
