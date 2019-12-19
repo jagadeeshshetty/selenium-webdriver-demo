@@ -22,7 +22,7 @@ describe('Verify Login', function () {
 
     it('with valid credentials', async function () {
         await login.authenticate('tomsmith', 'SuperSecretPassword!');
-        assert(await login.successMessagePresent(), 'Success message not displayed');
+        assert(login.successMessagePresent(), 'Success message not displayed');
     });
 
     it('with invalid credentials', async function () {
