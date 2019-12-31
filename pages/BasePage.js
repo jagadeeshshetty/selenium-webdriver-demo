@@ -24,7 +24,7 @@ class BasePage {
         try {
             return await this.find(locator).isDisplayed();
         } catch (error) {
-            return error;            
+            return error;
         }
     };
 
