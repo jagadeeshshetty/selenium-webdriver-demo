@@ -9,7 +9,8 @@
 ## Release Notes:
 
 ### 1.6.0
-- Explicit waits
+- Explicit waits support.
+- Debug support.
 
 ### 1.5.0
 - Optimize - Page Object support
