@@ -8,6 +8,12 @@
 
 ## Release Notes:
 
+### 1.6.0
+- Explicit waits support.
+- Debug support.
+- Handle dynamic, JavaScript heavy pages.
+- Run `node node_modules/mocha/bin/mocha test/DynamicLoadingTest.js`
+
 ### 1.5.0
 - Optimize - Page Object support
     - Abstract selenium common actions into a `BasePage` central place.
