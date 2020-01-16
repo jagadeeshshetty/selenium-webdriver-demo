@@ -1,22 +1,13 @@
 
-const { Builder } = require('selenium-webdriver');
-require('chromedriver');
+require('./spec_helper');
 const assert = require('assert');
 const DynamicLoadingPage = require('../pages/DynamicLoadingPage');
 
 describe('Verify Dynamic Loading', function () {
-    // by default, 2sec will be mocha timeout. so explicitly set to 30sec timeout.
-    this.timeout(30000);
-    let driver;
     let dynamicLoading;
 
     beforeEach(async function () {
-        driver = await new Builder().forBrowser('chrome').build();
-        dynamicLoading = new DynamicLoadingPage(driver);
-    })
-
-    afterEach(async function () {
-        await driver.quit();
+        dynamicLoading = new DynamicLoadingPage(this.driver);
     })
 
     it('hidden element', async function() {

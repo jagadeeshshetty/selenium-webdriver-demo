@@ -8,6 +8,14 @@
 
 ## Release Notes:
 
+### 1.7.0
+- Optimize framework.
+- Global setup and teardown.
+    - Define `build()` and `quit()` methods in `DriverFactory` class.
+    - Utilize `DriverFactory` through `spec_helper` module.
+- Global mocha timeout.
+    - Use `mocha.opts` file.
+
 ### 1.6.0
 - Explicit waits support.
 - Debug support.
