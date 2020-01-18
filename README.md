@@ -16,6 +16,7 @@
   - Utilize `DriverFactory` through `spec_helper` module.
 - Global mocha timeout.
   - Use `mocha.opts` file.
+- Define URL in config file to support testing, staging, production server.
 
 ### 1.6.0
 
