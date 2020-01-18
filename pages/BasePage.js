@@ -5,6 +5,7 @@
  * https://selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/lib/until.html
  */
 const Until = require('selenium-webdriver').until;
+const config = require('../lib/config');
 
 class BasePage {
     constructor(driver) {
@@ -12,7 +13,10 @@ class BasePage {
     }
 
     async visit(url) {
-        await this.driver.get(url);
+        if (url.startsWith('http'))
+            await this.driver.get(url);
+        else
+            await this.driver.get(config.baseUrl + url);
     };
 
     find(locator) {
