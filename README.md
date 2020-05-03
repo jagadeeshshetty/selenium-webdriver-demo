@@ -8,6 +8,10 @@
 
 ## Release Notes
 
+### 1.7.1
+
+- Bug fix: [#9 Test execution fails in Chrome Version 81.0.4044.129 (Official Build) (64-bit) browser.](https://github.com/jagadeeshshetty/selenium-webdriver-demo/issues/9)
+
 ### 1.7.0
 
 - Optimize framework.
