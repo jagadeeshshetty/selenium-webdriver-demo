@@ -5,7 +5,7 @@ services:
   - xvfb
 dist: trusty
 addons:
-  chrome: stable
+  chrome: beta
 before_install:
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 script:
