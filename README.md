@@ -5,7 +5,7 @@ _-- Simon Stewart._
 
 <!-- [![Build Status](https://travis-ci.org/jagadeeshshetty/selenium-webdriver-demo.svg?branch=master)](https://travis-ci.org/jagadeeshshetty/selenium-webdriver-demo) -->
 
-[![Actions Status](https://github.com/jagadeeshshetty/selenium-webdriver-demo/workflows/Node.js%20CI/badge.svg)](https://github.com/jagadeeshshetty/selenium-webdriver-demo/actions)
+[![Actions Status](https://github.com/jagadeeshshetty/selenium-webdriver-demo/workflows/Build%20+%20Test%20Run/badge.svg)](https://github.com/jagadeeshshetty/selenium-webdriver-demo/actions)
 
 ## Release Notes
 
