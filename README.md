@@ -1,12 +1,15 @@
-
 # WebUI Automated Acceptance Test using Selenium WebDriver + Javascript
 
 **If you have WebDriver APIs in your test methods, You're Doing It Wrong.**
-*-- Simon Stewart.*
+_-- Simon Stewart._
 
 [![Build Status](https://travis-ci.org/jagadeeshshetty/selenium-webdriver-demo.svg?branch=master)](https://travis-ci.org/jagadeeshshetty/selenium-webdriver-demo)
 
 ## Release Notes
+
+### 1.7.2
+
+- Maintance: Chromedriver update from 81 to 84 to support chrome browser 84.x.x version.
 
 ### 1.7.1
 
