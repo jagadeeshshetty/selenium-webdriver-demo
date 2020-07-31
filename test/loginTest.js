@@ -16,8 +16,8 @@ describe('Verify Login', function () {
         assert(await login.successMessagePresent(), 'Success message not displayed');
     });
 
-    // it('with invalid credentials', async function () {
-    //     await login.authenticate('invalid', 'invalid')
-    //     assert(await login.failureMessagePresent(), 'Failure message not displayed');
-    // });
+    it('with invalid credentials', async function () {
+        await login.authenticate('invalid', 'invalid')
+        assert(await login.failureMessagePresent(), 'Failure message not displayed');
+    });
 });
