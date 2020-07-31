@@ -10,7 +10,7 @@ describe('Verify Dynamic Loading', function () {
         dynamicLoading = new DynamicLoadingPage(this.driver);
     })
 
-    it('hidden element', async function() {
+    it('hidden element', async function () {
         await dynamicLoading.loadExample('1');
         assert(await dynamicLoading.isFinishTextPresent(), true, 'Finish text not displayed.');
     });
