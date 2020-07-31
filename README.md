@@ -7,6 +7,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.8.0
+
+- Added Github Actions support for CI/CD workflow.
+- Removed Travis support.
+
 ### 1.7.2
 
 - Maintance: Chromedriver update from 81 to 84 to support chrome browser 84.x.x version.
