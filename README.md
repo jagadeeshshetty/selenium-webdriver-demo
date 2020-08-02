@@ -9,6 +9,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.9.0
+
+- Added multiple browser support.
+- Tests runs in both `Chrome` and `Firefox` UI as well as headless mode.
+
 ### 1.8.0
 
 - Added Github Actions support for CI/CD workflow.
