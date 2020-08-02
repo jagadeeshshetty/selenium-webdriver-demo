@@ -1,0 +1,233 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-08-02T18:26:25.635Z",
+    "end": "2020-08-02T18:26:45.295Z",
+    "duration": 19660,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fe0727ac-047e-4215-9f41-36c01ba564ee",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before each\" hook",
+          "fullTitle": "\"before each\" hook",
+          "timedOut": false,
+          "duration": 552,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "const testName = this.currentTest.fullTitle();\nthis.driver = await driverFactory.build(testName);",
+          "err": {},
+          "uuid": "47bc40fd-a357-4db6-a26c-1964ce9779b6",
+          "parentUUID": "fe0727ac-047e-4215-9f41-36c01ba564ee",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [
+        {
+          "title": "\"after each\" hook",
+          "fullTitle": "\"after each\" hook",
+          "timedOut": false,
+          "duration": 53,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "await driverFactory.quit();",
+          "err": {},
+          "uuid": "cd7e8332-0086-4e41-80d4-6cf06f7d3915",
+          "parentUUID": "fe0727ac-047e-4215-9f41-36c01ba564ee",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b2c0f6dc-1ddd-4c71-96be-8d21e476e969",
+          "title": "Verify Dynamic Loading",
+          "fullFile": "/Users/jc/selenium-webdriver-demo/test/DynamicLoadingTest.js",
+          "file": "/test/DynamicLoadingTest.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Verify Dynamic Loading \"before each\" hook",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "dynamicLoading = new DynamicLoadingPage(this.driver);",
+              "err": {},
+              "uuid": "c326ad6e-50cc-40aa-8e05-10437aee3b42",
+              "parentUUID": "b2c0f6dc-1ddd-4c71-96be-8d21e476e969",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "hidden element",
+              "fullTitle": "Verify Dynamic Loading hidden element",
+              "timedOut": false,
+              "duration": 7681,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await dynamicLoading.loadExample('1');\nassert(await dynamicLoading.isFinishTextPresent(), true, 'Finish text not displayed.');",
+              "err": {},
+              "uuid": "310cc1ca-8e11-401e-9452-5e7a96705994",
+              "parentUUID": "b2c0f6dc-1ddd-4c71-96be-8d21e476e969",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "310cc1ca-8e11-401e-9452-5e7a96705994"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7681,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 48000
+        },
+        {
+          "uuid": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+          "title": "Verify Login",
+          "fullFile": "/Users/jc/selenium-webdriver-demo/test/loginTest.js",
+          "file": "/test/loginTest.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "Verify Login \"before each\" hook",
+              "timedOut": false,
+              "duration": 4073,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login = new LoginPage(this.driver);\nawait login.load();",
+              "err": {},
+              "uuid": "25fa7e9d-f352-4330-a9bf-47f631d0f549",
+              "parentUUID": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "with valid credentials",
+              "fullTitle": "Verify Login with valid credentials",
+              "timedOut": false,
+              "duration": 1076,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await login.authenticate('tomsmith', 'SuperSecretPassword!');\nassert(await login.successMessagePresent(), 'Success message not displayed');",
+              "err": {},
+              "uuid": "c20515ee-90b8-4aee-bbc5-5514f0c3a9e6",
+              "parentUUID": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "with invalid credentials",
+              "fullTitle": "Verify Login with invalid credentials",
+              "timedOut": false,
+              "duration": 1140,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await login.authenticate('invalid', 'invalid')\nassert(await login.failureMessagePresent(), 'Failure message not displayed');",
+              "err": {},
+              "uuid": "a64cbd6d-f81c-408f-b8e7-a81213e201ad",
+              "parentUUID": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c20515ee-90b8-4aee-bbc5-5514f0c3a9e6",
+            "a64cbd6d-f81c-408f-b8e7-a81213e201ad"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2216,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 48000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 48000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}
