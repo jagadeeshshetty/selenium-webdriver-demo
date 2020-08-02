@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha",
     "test:chrome": "BROWSER=chrome node node_modules/mocha/bin/mocha",
-    "test:chromeHeadless": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha",
+    "chromeHeadless": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha",
     "test:firefox": "BROWSER=firefox node node_modules/mocha/bin/mocha",
     "test:firefoxHeadless": "BROWSER=firefoxHeadless node node_modules/mocha/bin/mocha",
     "test:chromeFirefoxHeadless": "BROWSER=firefoxHeadless node node_modules/mocha/bin/mocha && BROWSER=chromeHeadless node node_modules/mocha/bin/mocha"

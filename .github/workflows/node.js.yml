@@ -32,4 +32,4 @@ jobs:
       - name: Build with npm
         run: npm ci
       - name: Run Testcases
-        run: npm test:chromeHeadless
+        run: npm chromeHeadless
