@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 2,
-    "tests": 3,
+    "tests": 4,
     "passes": 3,
     "pending": 0,
-    "failures": 0,
-    "start": "2020-08-02T18:26:25.635Z",
-    "end": "2020-08-02T18:26:45.295Z",
-    "duration": 19660,
-    "testsRegistered": 3,
-    "passPercent": 100,
+    "failures": 1,
+    "start": "2020-08-03T17:08:16.315Z",
+    "end": "2020-08-03T17:09:08.415Z",
+    "duration": 52100,
+    "testsRegistered": 4,
+    "passPercent": 75,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "fe0727ac-047e-4215-9f41-36c01ba564ee",
+      "uuid": "ce6a5ae4-2228-4883-b673-dc8964d62132",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
           "title": "\"before each\" hook",
           "fullTitle": "\"before each\" hook",
           "timedOut": false,
-          "duration": 552,
+          "duration": 3766,
           "state": null,
           "speed": null,
           "pass": false,
@@ -36,8 +36,8 @@
           "context": null,
           "code": "const testName = this.currentTest.fullTitle();\nthis.driver = await driverFactory.build(testName);",
           "err": {},
-          "uuid": "47bc40fd-a357-4db6-a26c-1964ce9779b6",
-          "parentUUID": "fe0727ac-047e-4215-9f41-36c01ba564ee",
+          "uuid": "e84f0240-d051-45c8-8ce7-152662d8a5b1",
+          "parentUUID": "ce6a5ae4-2228-4883-b673-dc8964d62132",
           "isHook": true,
           "skipped": false
         }
@@ -47,17 +47,17 @@
           "title": "\"after each\" hook",
           "fullTitle": "\"after each\" hook",
           "timedOut": false,
-          "duration": 53,
+          "duration": 1534,
           "state": null,
           "speed": null,
           "pass": false,
           "fail": false,
           "pending": false,
           "context": null,
-          "code": "await driverFactory.quit();",
+          "code": "if (this.currentTest.state === 'failed') {\n    let fileName = (this.currentTest.title + '-' + new Date().getTime()).replace(/\\s+/g, '-') + '.jpg';\n    let dir = await path.join(__dirname, '..', 'mochawesome-report', 'screenshots');\n    if (!fs.existsSync(dir)) {\n        await fs.mkdirSync(dir);\n    }\n    await fs.writeFileSync(await path.join(dir, fileName), await this.driver.takeScreenshot(), 'base64');\n    await addContext(this, await path.join(__dirname, '..', 'mochawesome-report', 'screenshots', fileName));\n}\nawait driverFactory.quit();",
           "err": {},
-          "uuid": "cd7e8332-0086-4e41-80d4-6cf06f7d3915",
-          "parentUUID": "fe0727ac-047e-4215-9f41-36c01ba564ee",
+          "uuid": "cb653e50-2a05-4ebf-93fb-5ffa1b2bcdc8",
+          "parentUUID": "ce6a5ae4-2228-4883-b673-dc8964d62132",
           "isHook": true,
           "skipped": false
         }
@@ -65,7 +65,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b2c0f6dc-1ddd-4c71-96be-8d21e476e969",
+          "uuid": "d9d2f868-a3b9-4932-9f0b-db4e55510d5a",
           "title": "Verify Dynamic Loading",
           "fullFile": "/Users/jc/selenium-webdriver-demo/test/DynamicLoadingTest.js",
           "file": "/test/DynamicLoadingTest.js",
@@ -74,7 +74,7 @@
               "title": "\"before each\" hook",
               "fullTitle": "Verify Dynamic Loading \"before each\" hook",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -83,8 +83,8 @@
               "context": null,
               "code": "dynamicLoading = new DynamicLoadingPage(this.driver);",
               "err": {},
-              "uuid": "c326ad6e-50cc-40aa-8e05-10437aee3b42",
-              "parentUUID": "b2c0f6dc-1ddd-4c71-96be-8d21e476e969",
+              "uuid": "99c9fd96-211d-4430-beca-a42b2c8b5ee3",
+              "parentUUID": "d9d2f868-a3b9-4932-9f0b-db4e55510d5a",
               "isHook": true,
               "skipped": false
             }
@@ -95,7 +95,7 @@
               "title": "hidden element",
               "fullTitle": "Verify Dynamic Loading hidden element",
               "timedOut": false,
-              "duration": 7681,
+              "duration": 7930,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -104,26 +104,26 @@
               "context": null,
               "code": "await dynamicLoading.loadExample('1');\nassert(await dynamicLoading.isFinishTextPresent(), true, 'Finish text not displayed.');",
               "err": {},
-              "uuid": "310cc1ca-8e11-401e-9452-5e7a96705994",
-              "parentUUID": "b2c0f6dc-1ddd-4c71-96be-8d21e476e969",
+              "uuid": "d6888058-3b93-4b40-95ac-209c40302f5b",
+              "parentUUID": "d9d2f868-a3b9-4932-9f0b-db4e55510d5a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "310cc1ca-8e11-401e-9452-5e7a96705994"
+            "d6888058-3b93-4b40-95ac-209c40302f5b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7681,
+          "duration": 7930,
           "root": false,
           "rootEmpty": false,
           "_timeout": 48000
         },
         {
-          "uuid": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+          "uuid": "c71b874e-cdb2-48fd-b3ce-50d60a1ed2b8",
           "title": "Verify Login",
           "fullFile": "/Users/jc/selenium-webdriver-demo/test/loginTest.js",
           "file": "/test/loginTest.js",
@@ -132,7 +132,7 @@
               "title": "\"before each\" hook",
               "fullTitle": "Verify Login \"before each\" hook",
               "timedOut": false,
-              "duration": 4073,
+              "duration": 8065,
               "state": null,
               "speed": null,
               "pass": false,
@@ -141,8 +141,8 @@
               "context": null,
               "code": "login = new LoginPage(this.driver);\nawait login.load();",
               "err": {},
-              "uuid": "25fa7e9d-f352-4330-a9bf-47f631d0f549",
-              "parentUUID": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+              "uuid": "7b77b408-0e47-4882-8fb6-a58a0ec391d0",
+              "parentUUID": "c71b874e-cdb2-48fd-b3ce-50d60a1ed2b8",
               "isHook": true,
               "skipped": false
             }
@@ -153,7 +153,7 @@
               "title": "with valid credentials",
               "fullTitle": "Verify Login with valid credentials",
               "timedOut": false,
-              "duration": 1076,
+              "duration": 1100,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -162,8 +162,8 @@
               "context": null,
               "code": "await login.authenticate('tomsmith', 'SuperSecretPassword!');\nassert(await login.successMessagePresent(), 'Success message not displayed');",
               "err": {},
-              "uuid": "c20515ee-90b8-4aee-bbc5-5514f0c3a9e6",
-              "parentUUID": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+              "uuid": "bb4d4cc5-ca67-411f-9f83-50b0153f02d3",
+              "parentUUID": "c71b874e-cdb2-48fd-b3ce-50d60a1ed2b8",
               "isHook": false,
               "skipped": false
             },
@@ -171,7 +171,7 @@
               "title": "with invalid credentials",
               "fullTitle": "Verify Login with invalid credentials",
               "timedOut": false,
-              "duration": 1140,
+              "duration": 1002,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -180,21 +180,45 @@
               "context": null,
               "code": "await login.authenticate('invalid', 'invalid')\nassert(await login.failureMessagePresent(), 'Failure message not displayed');",
               "err": {},
-              "uuid": "a64cbd6d-f81c-408f-b8e7-a81213e201ad",
-              "parentUUID": "66f6b448-aba9-4aaa-9674-c73effb8c29f",
+              "uuid": "c3f05f33-ec21-4901-815e-d7afd96ec1c3",
+              "parentUUID": "c71b874e-cdb2-48fd-b3ce-50d60a1ed2b8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "expected failure to validate screenshot",
+              "fullTitle": "Verify Login expected failure to validate screenshot",
+              "timedOut": false,
+              "duration": 865,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"/Users/jc/selenium-webdriver-demo/mochawesome-report/screenshots/expected-failure-to-validate-screenshot-1596474546880.jpg\"",
+              "code": "await login.authenticate('invalid', 'invalid')\nassert(false, 'Expected assertion failure.');",
+              "err": {
+                "message": "AssertionError: Expected assertion failure.",
+                "estack": "AssertionError [ERR_ASSERTION]: Expected assertion failure.\n    at Context.<anonymous> (test/loginTest.js:26:9)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+                "diff": "- false\n+ true\n"
+              },
+              "uuid": "642ed3ab-471e-4162-a7bb-42f4f0e0603a",
+              "parentUUID": "c71b874e-cdb2-48fd-b3ce-50d60a1ed2b8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c20515ee-90b8-4aee-bbc5-5514f0c3a9e6",
-            "a64cbd6d-f81c-408f-b8e7-a81213e201ad"
+            "bb4d4cc5-ca67-411f-9f83-50b0153f02d3",
+            "c3f05f33-ec21-4901-815e-d7afd96ec1c3"
           ],
-          "failures": [],
+          "failures": [
+            "642ed3ab-471e-4162-a7bb-42f4f0e0603a"
+          ],
           "pending": [],
           "skipped": [],
-          "duration": 2216,
+          "duration": 2967,
           "root": false,
           "rootEmpty": false,
           "_timeout": 48000
@@ -212,7 +236,7 @@
   ],
   "meta": {
     "mocha": {
-      "version": "6.2.2"
+      "version": "6.2.3"
     },
     "mochawesome": {
       "options": {
@@ -227,7 +251,7 @@
     },
     "marge": {
       "options": null,
-      "version": "4.0.1"
+      "version": "4.1.0"
     }
   }
 }

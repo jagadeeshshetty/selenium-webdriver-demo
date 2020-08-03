@@ -9,6 +9,10 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.10.0
+
+- Add `mochawesome` report support.
+
 ### 1.9.0
 
 - Added multiple browser support.

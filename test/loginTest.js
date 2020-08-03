@@ -20,4 +20,9 @@ describe('Verify Login', function () {
         await login.authenticate('invalid', 'invalid')
         assert(await login.failureMessagePresent(), 'Failure message not displayed');
     });
+
+    it('expected failure to validate screenshot', async function () {
+        await login.authenticate('invalid', 'invalid')
+        assert(false, 'Expected assertion failure.');
+    });
 });
