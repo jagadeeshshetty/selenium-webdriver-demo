@@ -82,3 +82,9 @@ _-- Simon Stewart._
 ### 1.0.0
 
 - Initial project setup
+
+## Reference
+
+[Selenium Webdriver](https://www.selenium.dev/selenium/docs/api/javascript/index.html)
+
+[mochawesome](https://www.npmjs.com/package/mochawesome#example)
