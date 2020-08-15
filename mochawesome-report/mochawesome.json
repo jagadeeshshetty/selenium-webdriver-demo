@@ -1,24 +1,24 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 3,
-    "passes": 3,
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-08-03T17:23:11.188Z",
-    "end": "2020-08-03T17:23:31.349Z",
-    "duration": 20161,
+    "start": "2020-08-15T17:53:01.155Z",
+    "end": "2020-08-15T17:53:21.587Z",
+    "duration": 20432,
     "testsRegistered": 3,
-    "passPercent": 100,
+    "passPercent": 33.33333333333333,
     "pendingPercent": 0,
-    "other": 0,
-    "hasOther": false,
-    "skipped": 0,
-    "hasSkipped": false
+    "other": 1,
+    "hasOther": true,
+    "skipped": 2,
+    "hasSkipped": true
   },
   "results": [
     {
-      "uuid": "b30d74d9-828d-4bef-8718-b305fae9e53f",
+      "uuid": "4aee36c5-455c-49c6-abeb-e81ef923ce65",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
           "title": "\"before each\" hook",
           "fullTitle": "\"before each\" hook",
           "timedOut": false,
-          "duration": 478,
+          "duration": 5436,
           "state": null,
           "speed": null,
           "pass": false,
@@ -36,28 +36,32 @@
           "context": null,
           "code": "const testName = this.currentTest.fullTitle();\nthis.driver = await driverFactory.build(testName);",
           "err": {},
-          "uuid": "f0ecbb72-3c78-40e8-ac37-428d047a8f7f",
-          "parentUUID": "b30d74d9-828d-4bef-8718-b305fae9e53f",
+          "uuid": "3de0b01e-588f-459e-85c4-96d9b4aff278",
+          "parentUUID": "4aee36c5-455c-49c6-abeb-e81ef923ce65",
           "isHook": true,
           "skipped": false
         }
       ],
       "afterHooks": [
         {
-          "title": "\"after each\" hook",
-          "fullTitle": "\"after each\" hook",
+          "title": "\"after each\" hook for \"hidden element\"",
+          "fullTitle": "\"after each\" hook for \"hidden element\"",
           "timedOut": false,
-          "duration": 53,
-          "state": null,
+          "duration": 1465,
+          "state": "failed",
           "speed": null,
           "pass": false,
-          "fail": false,
+          "fail": true,
           "pending": false,
           "context": null,
           "code": "if (this.currentTest.state === 'failed') {\n    let fileName = (this.currentTest.title + '-' + new Date().getTime()).replace(/\\s+/g, '-') + '.jpg';\n    let dir = await path.join(__dirname, '..', 'mochawesome-report', 'screenshots');\n    if (!fs.existsSync(dir)) {\n        await fs.mkdirSync(dir);\n    }\n    await fs.writeFileSync(await path.join(dir, fileName), await this.driver.takeScreenshot(), 'base64');\n    await addContext(this, await path.join(__dirname, '..', 'mochawesome-report', 'screenshots', fileName));\n}\nawait driverFactory.quit();",
-          "err": {},
-          "uuid": "767192f8-951f-4018-8972-da2e6d6741e1",
-          "parentUUID": "b30d74d9-828d-4bef-8718-b305fae9e53f",
+          "err": {
+            "message": "NoSuchSessionError: Tried to run command without establishing a connection",
+            "estack": "NoSuchSessionError: Tried to run command without establishing a connection\n    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)\n    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:565:13)\n    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:491:26)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:700:17)\n    at async Object.thenFinally [as finally] (node_modules/selenium-webdriver/lib/promise.js:123:5)\n    at async DriverFactory.quit (lib/DriverFactory.js:74:9)\n    at async Context.<anonymous> (test/spec_helper.js:23:5)",
+            "diff": null
+          },
+          "uuid": "8c73402a-a45c-4056-ba92-548e2fa4724c",
+          "parentUUID": "4aee36c5-455c-49c6-abeb-e81ef923ce65",
           "isHook": true,
           "skipped": false
         }
@@ -65,7 +69,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0a95ffef-6480-40da-8dd5-5ec5f585309c",
+          "uuid": "67ab7578-df97-4058-a4aa-27d10780b4d6",
           "title": "Verify Dynamic Loading",
           "fullFile": "/Users/jc/selenium-webdriver-demo/test/DynamicLoadingTest.js",
           "file": "/test/DynamicLoadingTest.js",
@@ -74,7 +78,7 @@
               "title": "\"before each\" hook",
               "fullTitle": "Verify Dynamic Loading \"before each\" hook",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": null,
               "speed": null,
               "pass": false,
@@ -83,8 +87,8 @@
               "context": null,
               "code": "dynamicLoading = new DynamicLoadingPage(this.driver);",
               "err": {},
-              "uuid": "e959f770-852f-46a3-9a25-876b929beca9",
-              "parentUUID": "0a95ffef-6480-40da-8dd5-5ec5f585309c",
+              "uuid": "d5f7d326-5065-4a4a-b576-6e39213591d0",
+              "parentUUID": "67ab7578-df97-4058-a4aa-27d10780b4d6",
               "isHook": true,
               "skipped": false
             }
@@ -95,7 +99,7 @@
               "title": "hidden element",
               "fullTitle": "Verify Dynamic Loading hidden element",
               "timedOut": false,
-              "duration": 8997,
+              "duration": 13509,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -104,26 +108,26 @@
               "context": null,
               "code": "await dynamicLoading.loadExample('1');\nassert(await dynamicLoading.isFinishTextPresent(), true, 'Finish text not displayed.');",
               "err": {},
-              "uuid": "08f4bb90-19c3-4c12-8ce7-378fefeb7839",
-              "parentUUID": "0a95ffef-6480-40da-8dd5-5ec5f585309c",
+              "uuid": "a4978c15-23a5-4152-9346-35938d2b73c0",
+              "parentUUID": "67ab7578-df97-4058-a4aa-27d10780b4d6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "08f4bb90-19c3-4c12-8ce7-378fefeb7839"
+            "a4978c15-23a5-4152-9346-35938d2b73c0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8997,
+          "duration": 13509,
           "root": false,
           "rootEmpty": false,
           "_timeout": 48000
         },
         {
-          "uuid": "7d606086-7c33-4bc3-a3bf-ac8ef51afa54",
+          "uuid": "5a81a345-5868-4374-b010-f30b9e767ba8",
           "title": "Verify Login",
           "fullFile": "/Users/jc/selenium-webdriver-demo/test/loginTest.js",
           "file": "/test/loginTest.js",
@@ -132,7 +136,7 @@
               "title": "\"before each\" hook",
               "fullTitle": "Verify Login \"before each\" hook",
               "timedOut": false,
-              "duration": 3204,
+              "duration": 0,
               "state": null,
               "speed": null,
               "pass": false,
@@ -141,8 +145,8 @@
               "context": null,
               "code": "login = new LoginPage(this.driver);\nawait login.load();",
               "err": {},
-              "uuid": "40a1b023-750b-4c56-902a-2cf4cf79ffbb",
-              "parentUUID": "7d606086-7c33-4bc3-a3bf-ac8ef51afa54",
+              "uuid": "14937cd2-57db-4abb-a987-caf7071f98ec",
+              "parentUUID": null,
               "isHook": true,
               "skipped": false
             }
@@ -153,48 +157,48 @@
               "title": "with valid credentials",
               "fullTitle": "Verify Login with valid credentials",
               "timedOut": false,
-              "duration": 1081,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "await login.authenticate('tomsmith', 'SuperSecretPassword!');\nassert(await login.successMessagePresent(), 'Success message not displayed');",
               "err": {},
-              "uuid": "6b86b1e7-5c0f-42e4-9790-006c7ab9add7",
-              "parentUUID": "7d606086-7c33-4bc3-a3bf-ac8ef51afa54",
+              "uuid": "dc9916bc-d56b-45c5-b0ac-33b910647206",
+              "parentUUID": null,
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "with invalid credentials",
               "fullTitle": "Verify Login with invalid credentials",
               "timedOut": false,
-              "duration": 1159,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "await login.authenticate('invalid', 'invalid')\nassert(await login.failureMessagePresent(), 'Failure message not displayed');",
               "err": {},
-              "uuid": "b8ca1422-d541-4f93-b071-d603c91440b7",
-              "parentUUID": "7d606086-7c33-4bc3-a3bf-ac8ef51afa54",
+              "uuid": "f5cb35b7-46de-4564-92e9-0d8142763bb8",
+              "parentUUID": null,
               "isHook": false,
-              "skipped": false
+              "skipped": true
             }
           ],
           "suites": [],
-          "passes": [
-            "6b86b1e7-5c0f-42e4-9790-006c7ab9add7",
-            "b8ca1422-d541-4f93-b071-d603c91440b7"
-          ],
+          "passes": [],
           "failures": [],
           "pending": [],
-          "skipped": [],
-          "duration": 2240,
+          "skipped": [
+            "dc9916bc-d56b-45c5-b0ac-33b910647206",
+            "f5cb35b7-46de-4564-92e9-0d8142763bb8"
+          ],
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 48000
