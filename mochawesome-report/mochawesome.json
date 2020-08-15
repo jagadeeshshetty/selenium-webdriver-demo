@@ -1,20 +1,20 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 3,
-    "passes": 3,
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
     "start": "2020-08-15T17:55:27.281Z",
     "end": "2020-08-15T17:56:02.796Z",
     "duration": 35515,
     "testsRegistered": 3,
-    "passPercent": 100,
+    "passPercent": 33.33333333333333,
     "pendingPercent": 0,
-    "other": 0,
-    "hasOther": false,
-    "skipped": 0,
-    "hasSkipped": false
+    "other": 1,
+    "hasOther": true,
+    "skipped": 2,
+    "hasSkipped": true
   },
   "results": [
     {
@@ -44,14 +44,14 @@
       ],
       "afterHooks": [
         {
-          "title": "\"after each\" hook",
-          "fullTitle": "\"after each\" hook",
+          "title": "\"after each\" hook for \"hidden element\"",
+          "fullTitle": "\"after each\" hook for \"hidden element\"",
           "timedOut": false,
           "duration": 1514,
           "state": null,
           "speed": null,
           "pass": false,
-          "fail": false,
+          "fail": true,
           "pending": false,
           "context": null,
           "code": "if (this.currentTest.state === 'failed') {\n    let fileName = (this.currentTest.title + '-' + new Date().getTime()).replace(/\\s+/g, '-') + '.jpg';\n    let dir = await path.join(__dirname, '..', 'mochawesome-report', 'screenshots');\n    if (!fs.existsSync(dir)) {\n        await fs.mkdirSync(dir);\n    }\n    await fs.writeFileSync(await path.join(dir, fileName), await this.driver.takeScreenshot(), 'base64');\n    await addContext(this, await path.join(__dirname, '..', 'mochawesome-report', 'screenshots', fileName));\n}\nawait driverFactory.quit();",
@@ -74,7 +74,7 @@
               "title": "\"before each\" hook",
               "fullTitle": "Verify Dynamic Loading \"before each\" hook",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": null,
               "speed": null,
               "pass": false,
@@ -165,7 +165,7 @@
               "uuid": "0239141c-ee31-445f-9728-51af197e6e8a",
               "parentUUID": "e06a01cf-0c76-4a30-9b38-337678d5673f",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "with invalid credentials",
@@ -183,7 +183,7 @@
               "uuid": "31325e9a-8224-4667-84d2-5bde73ea1e00",
               "parentUUID": "e06a01cf-0c76-4a30-9b38-337678d5673f",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             }
           ],
           "suites": [],
