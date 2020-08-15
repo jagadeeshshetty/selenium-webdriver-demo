@@ -12,6 +12,8 @@ _-- Simon Stewart._
 ### 1.10.0
 
 - Add `mochawesome` report support.
+- Test execution report is as follows
+  ![](doc-images/test-execution-screenshot.png)
 
 ### 1.9.0
 
