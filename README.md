@@ -1,4 +1,4 @@
-# WebUI Automated Acceptance Test using Selenium WebDriver + Javascript
+# WebUI Automated Acceptance Test using Selenium WebDriver + Javascript + Mocha
 
 **If you have WebDriver APIs in your test methods, You're Doing It Wrong.**
 _-- Simon Stewart._
