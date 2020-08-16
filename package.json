@@ -6,8 +6,10 @@
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha",
     "test:chrome": "BROWSER=chrome node node_modules/mocha/bin/mocha --reporter mochawesome",
+    "test:chrome_win": "setx BROWSER 'chrome' && node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:chromeHeadless": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:firefox": "BROWSER=firefox node node_modules/mocha/bin/mocha --reporter mochawesome",
+    "test:firefox_win": "setx BROWSER 'firefox' && node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:firefoxHeadless": "BROWSER=firefoxHeadless node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:chromeFirefoxHeadless": "BROWSER=firefoxHeadless node node_modules/mocha/bin/mocha && BROWSER=chromeHeadless node node_modules/mocha/bin/mocha"
   },
