@@ -22,7 +22,8 @@
     "webdriver",
     "test",
     "automation",
-    "acceptance test"
+    "acceptance test",
+    "javascript"
   ],
   "author": "Jagadeesh Cheluvaraj <jagadeesh.cheluvaraj@gmail.com>",
   "license": "MIT",
