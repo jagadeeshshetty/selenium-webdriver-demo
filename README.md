@@ -9,6 +9,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.11.0
+
+- Added parallel test run support using `mocha-parallel-tests` library.
+- Github Actions CI/CD run test cases in parallel.
+
 ### 1.10.1
 
 - Fixed bug: [Test cases execution fails on Windows OS.](https://github.com/jagadeeshshetty/selenium-webdriver-demo/issues/20)
