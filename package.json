@@ -9,6 +9,7 @@
     "test:chrome_parallel": "BROWSER=chrome node node_modules/.bin/mocha-parallel-tests --reporter mochawesome",
     "test:chrome_win": "setx BROWSER 'chrome' && node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:chromeHeadless": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha --reporter mochawesome",
+    "test:chromeHeadless_parallel": "BROWSER=chromeHeadless node node_modules/.bin/mocha-parallel-tests --reporter mochawesome",
     "test:firefox": "BROWSER=firefox node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:firefox_win": "setx BROWSER 'firefox' && node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:firefoxHeadless": "BROWSER=firefoxHeadless node node_modules/mocha/bin/mocha --reporter mochawesome",
