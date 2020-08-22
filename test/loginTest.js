@@ -11,7 +11,7 @@ describe('Verify Login @authentication', function () {
         await login.load();
     })
 
-    it('with valid credentials @P1 @validLogin', async function () {
+    it('with valid credentials @sanity @P1 @validLogin', async function () {
         await login.authenticate('tomsmith', 'SuperSecretPassword!');
         assert(await login.successMessagePresent(), 'Success message not displayed');
     });
