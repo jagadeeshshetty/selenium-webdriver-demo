@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha",
-    "test:chrome": "BROWSER=chrome node node_modules/mocha/bin/mocha --reporter mochawesome",
+    "test:tag": "node node_modules/mocha/bin/mocha --grep",
+    "test:chrome": "BROWSER=chrome node node_modules/mocha/bin/mocha --grep P1 --reporter mochawesome",
     "test:chrome_parallel": "BROWSER=chrome node node_modules/.bin/mocha-parallel-tests --reporter mochawesome",
     "test:chrome_win": "setx BROWSER 'chrome' && node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:chromeHeadless": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha --reporter mochawesome",
