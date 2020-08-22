@@ -3,7 +3,7 @@ require('./spec_helper');
 const assert = require('assert');
 const LoginPage = require('../pages/LoginPage');
 
-describe('Verify Login', function () {
+describe('Verify Login @authentication', function () {
     let login;
 
     beforeEach(async function () {
@@ -11,12 +11,12 @@ describe('Verify Login', function () {
         await login.load();
     })
 
-    it('with valid credentials', async function () {
+    it('with valid credentials @P1 @validLogin', async function () {
         await login.authenticate('tomsmith', 'SuperSecretPassword!');
         assert(await login.successMessagePresent(), 'Success message not displayed');
     });
 
-    it('with invalid credentials', async function () {
+    it('with invalid credentials @P3', async function () {
         await login.authenticate('invalid', 'invalid')
         assert(await login.failureMessagePresent(), 'Failure message not displayed');
     });

@@ -9,6 +9,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.12.0
+
+- Run specific test case using `tag`.
+- Run single test case `npm run test:tag tag-name`
+
 ### 1.11.0
 
 - Added parallel test run support using `mocha-parallel-tests` library.
