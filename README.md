@@ -9,6 +9,10 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.12.1
+
+- Added `upload text file` test case.
+
 ### 1.12.0
 
 - Run specific test case using `tag`.
