@@ -31,6 +31,10 @@ class BasePage {
         await this.find(locator).click();
     };
 
+    async getText(locator) {
+        return await this.find(locator).getText();
+    }
+
     async isDisplayed(locator, timeout = 6000) {
         if (timeout) {
             await this.driver.wait(Until.elementLocated(locator), timeout);
