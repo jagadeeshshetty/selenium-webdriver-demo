@@ -21,8 +21,8 @@ describe('Verify Login @authentication', function () {
         assert(await login.failureMessagePresent(), 'Failure message not displayed');
     });
 
-    it('generate screenshot for failed test case @generateScreenshot', async function () {
-        await login.authenticate('invalid', 'invalid')
-        assert(await login.successMessagePresent(), 'Success message not displayed');
-    });
+    // it('generate screenshot for failed test case @generateScreenshot', async function () {
+    //     await login.authenticate('invalid', 'invalid')
+    //     assert(await login.successMessagePresent(), 'Success message not displayed');
+    // });
 });
