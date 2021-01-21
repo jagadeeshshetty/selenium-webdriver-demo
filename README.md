@@ -9,6 +9,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.12.2
+
+- Supporting Chrome 87 version.
+- Supporting test run with tag and generate test execution report. `npm run test:chrome:tag sanity`
+
 ### 1.12.1
 
 - Added `upload text file` test case.
