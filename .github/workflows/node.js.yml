@@ -31,5 +31,5 @@ jobs:
           ./scripts/InstallChrome.sh
       - name: Build with npm
         run: npm ci
-      - name: Run Testcases
+      - name: Run Sanity Testcases
         run: npm run test:chromeHeadless_parallel

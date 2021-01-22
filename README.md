@@ -9,6 +9,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.12.3
+
+- Added `download file` test case.
+- Run single test case: `npm run test /test/download.spec.js`
+
 ### 1.12.2
 
 - Supporting Chrome 87 version.
@@ -113,3 +118,5 @@ _-- Simon Stewart._
 [Selenium Webdriver](https://www.selenium.dev/selenium/docs/api/javascript/index.html)
 
 [mochawesome](https://www.npmjs.com/package/mochawesome#example)
+
+[Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)

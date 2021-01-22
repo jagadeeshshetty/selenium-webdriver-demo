@@ -24,19 +24,6 @@ class UploadFilePage extends BasePage {
         return await this.getText(UPLOADED_FILES_CONTAINER);
     }
 
-    // async authenticate(username, password) {
-    //     await this.type(USERNAME_INPUT, username);
-    //     await this.type(PASSWORD_INPUT, password);
-    //     await this.click(SUBMIT_BUTTON);
-    // }
-
-    // successMessagePresent() {
-    //     return this.isDisplayed(SUCCESS_MESSAGE);
-    // }
-
-    // failureMessagePresent() {
-    //     return this.isDisplayed(FAILURE_MESSAGE);
-    // }
 }
 
 module.exports = UploadFilePage;
