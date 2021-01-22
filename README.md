@@ -9,6 +9,11 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.12.3
+
+- Added `download file` test case.
+- Run single test case: `npm run test /test/download.spec.js`
+
 ### 1.12.2
 
 - Supporting Chrome 87 version.
