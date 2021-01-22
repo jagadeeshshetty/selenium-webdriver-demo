@@ -9,6 +9,10 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.12.4
+
+- Added `download file with header` test case.
+
 ### 1.12.3
 
 - Added `download file` test case.
