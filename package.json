@@ -1,6 +1,6 @@
 {
   "name": "selenium-webdriver-demo",
-  "version": "1.12.2",
+  "version": "1.12.3",
   "description": "WebUI Automated Acceptance Test using Selenium WebDriver + Javascript",
   "main": "index.js",
   "scripts": {
