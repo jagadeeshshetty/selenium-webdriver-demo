@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha",
     "test:tag": "node node_modules/mocha/bin/mocha --grep",
+    "test_default_tag": "node node_modules/mocha/bin/mocha --reporter mochawesome --reporter-options reportFilename=index.html --grep",
     "test:chrome": "BROWSER=chrome node node_modules/mocha/bin/mocha --grep P1 --reporter mochawesome --reporter-options reportFilename=index.html",
     "test:chrome:tag": "BROWSER=chrome node node_modules/mocha/bin/mocha --reporter mochawesome --reporter-options reportFilename=index.html --grep",
     "test:chrome_parallel": "BROWSER=chrome node node_modules/.bin/mocha-parallel-tests --reporter mochawesome",
