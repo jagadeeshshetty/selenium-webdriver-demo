@@ -9,8 +9,16 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/node_modules/mocha/bin/mocha"
-      //   "args": ["BROWSER=chrome"]
+      "program": "${workspaceFolder}/node_modules/mocha/bin/mocha",
+      "args": [
+        "--reporter",
+        "mochawesome",
+        "--reporter-options",
+        "reportFilename=index.html",
+        "--grep",
+        "validLogin"
+      ],
+      "env": { "BROWSER": "chrome" }
     }
   ]
 }
