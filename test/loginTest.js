@@ -25,4 +25,18 @@ describe('Verify Login @authentication', function () {
     //     await login.authenticate('invalid', 'invalid')
     //     assert(await login.successMessagePresent(), 'Success message not displayed');
     // });
+
+    it('capture complete page and element screenshot @P3 @elementScreenshot', async function () {
+        let subheaderLocator = login.find({ xpath: "//*[@class='subheader']" });
+        // let subheaderLocator =  this.driver.findElement(By.xpath("//*[@class='subheader']"));
+
+        // Returns base64 encoded string
+        let encodedString = await this.driver.takeScreenshot();
+        // Capture and save the screenshot of the current page.
+        require('fs').writeFileSync('./test-screenshots/fullpage.png', encodedString, 'base64');
+
+        // Capture and save the screenshot of the subheader element.
+        encodedString = await subheaderLocator.takeScreenshot(true);
+        require('fs').writeFileSync('./test-screenshots/subheader.png', encodedString, 'base64');
+    });
 });

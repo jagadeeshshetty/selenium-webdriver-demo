@@ -48,6 +48,11 @@ class BasePage {
             }
         }
     };
+
+    async elementScreenshot(locator) {
+        const element = await this.find(locator);
+        return await element.takeScreenshot();
+    }
 }
 
 module.exports = BasePage;
