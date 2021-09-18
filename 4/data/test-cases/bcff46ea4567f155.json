@@ -1,0 +1,46 @@
+{
+  "uid" : "bcff46ea4567f155",
+  "name" : "with valid text file @sanity @P1 @textFileUpload",
+  "fullName" : "Verify file upload functionality @upload.with valid text file @sanity @P1 @textFileUpload",
+  "historyId" : "2c6f971a482a37b327f5369c5872781d",
+  "time" : {
+    "start" : 1631986810624,
+    "stop" : 1631986811668,
+    "duration" : 1044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify file upload functionality @upload"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify file upload functionality @upload"
+  }, {
+    "name" : "testMethod",
+    "value" : "with valid text file @sanity @P1 @textFileUpload"
+  }, {
+    "name" : "package",
+    "value" : "Verify file upload functionality @upload"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcff46ea4567f155.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c6306c9818c4ba01",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "time" : {
+    "start" : 1631986809268,
+    "stop" : 1631986810617,
+    "duration" : 1349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcff46ea4567f155",
+  "name" : "with valid text file @sanity @P1 @textFileUpload",
+  "time" : {
+    "start" : 1631986810624,
+    "stop" : 1631986811668,
+    "duration" : 1044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
