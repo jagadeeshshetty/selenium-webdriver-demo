@@ -1,0 +1,75 @@
+{
+  "uid" : "3ffacac80edfc36e",
+  "name" : "with valid text file @sanity @P1 @textFileUpload",
+  "fullName" : " Verify file upload functionality @upload.with valid text file @sanity @P1 @textFileUpload",
+  "historyId" : "56e5efdb05d30afe479d30492b27b118",
+  "time" : {
+    "start" : 1631987200323,
+    "stop" : 1631987200323,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify file upload functionality @upload"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify file upload functionality @upload"
+  }, {
+    "name" : "testMethod",
+    "value" : "with valid text file @sanity @P1 @textFileUpload"
+  }, {
+    "name" : "package",
+    "value" : " Verify file upload functionality @upload"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6742bcc8ffa38bc5",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/2//#testresult/6742bcc8ffa38bc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631984529730,
+          "stop" : 1631984529731,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "696991c083e43722",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1//#testresult/696991c083e43722",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631984117513,
+          "stop" : 1631984117514,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3ffacac80edfc36e.json",
+  "parameterValues" : [ ]
+}

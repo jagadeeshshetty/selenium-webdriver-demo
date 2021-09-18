@@ -1,0 +1,71 @@
+[ {
+  "uid" : "7e94190fb3809da6",
+  "name" : "verify a file download by inspecting its head request @downloadHeader",
+  "time" : {
+    "start" : 1631987191804,
+    "stop" : 1631987191804,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "331ed8c55bfd8995",
+  "name" : "capture complete page and element screenshot @P3 @elementScreenshot",
+  "time" : {
+    "start" : 1631987200181,
+    "stop" : 1631987200181,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1764b9af04944c6",
+  "name" : "hidden element @P2",
+  "time" : {
+    "start" : 1631987198436,
+    "stop" : 1631987198437,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "437df234ddc3a1d5",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "time" : {
+    "start" : 1631987200180,
+    "stop" : 1631987200180,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9902fd81fac23b1e",
+  "name" : "should automatically download to local disk @textFileDownload",
+  "time" : {
+    "start" : 1631987193983,
+    "stop" : 1631987193983,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ffacac80edfc36e",
+  "name" : "with valid text file @sanity @P1 @textFileUpload",
+  "time" : {
+    "start" : 1631987200323,
+    "stop" : 1631987200323,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6269b0b33c1aa70c",
+  "name" : "with invalid credentials @P3",
+  "time" : {
+    "start" : 1631987200180,
+    "stop" : 1631987200181,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
