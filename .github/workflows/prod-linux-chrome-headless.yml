@@ -32,9 +32,6 @@ jobs:
       - name: Build with npm
         run: npm ci
 
-      - name: Run Sanity Testcases
-        run: npm run test_chromeHeadless_parallel_allure_reporter
-
       # - uses: actions/cache@v1
       #   with:
       #     path: |
