@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Verify Login @authentication",
+    "children" : [ {
+      "name" : "with valid credentials @sanity @P1 @validLogin",
+      "uid" : "6984624dc0dcd9fd",
+      "parentUid" : "06d4bc8b8893189725cf087bcd1c77cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987677243,
+        "stop" : 1631987682264,
+        "duration" : 5021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "06d4bc8b8893189725cf087bcd1c77cc"
+  }, {
+    "name" : "Verify file upload functionality @upload",
+    "children" : [ {
+      "name" : "with valid text file @sanity @P1 @textFileUpload",
+      "uid" : "c41d55ad14571f2c",
+      "parentUid" : "43facad815c25d59c9de022e8659e1fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987682270,
+        "stop" : 1631987683003,
+        "duration" : 733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "43facad815c25d59c9de022e8659e1fa"
+  } ],
+  "name" : "suites"
+}

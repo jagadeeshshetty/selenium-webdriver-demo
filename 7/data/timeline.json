@@ -1,0 +1,31 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "with valid credentials @sanity @P1 @validLogin",
+    "uid" : "6984624dc0dcd9fd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631987677243,
+      "stop" : 1631987682264,
+      "duration" : 5021
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "with valid text file @sanity @P1 @textFileUpload",
+    "uid" : "c41d55ad14571f2c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631987682270,
+      "stop" : 1631987683003,
+      "duration" : 733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}
