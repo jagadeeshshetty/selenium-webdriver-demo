@@ -32,22 +32,6 @@ jobs:
       - name: Build with npm
         run: npm ci
 
-      # - uses: actions/cache@v1
-      #   with:
-      #     path: |
-      #       ~/.m2/repository
-      #     key: ${{ runner.os }}-${{ github.workflow }}-${{ hashFiles('**/pom.xml') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-${{ github.workflow }}-
-
-      # - name: Set up JDK
-      #   uses: actions/setup-java@v1
-      #   with:
-      #     java-version: 11
-
-      # - name: Install dependencies
-      #   run: mvn dependency:go-offline compile compiler:testCompile
-
       - name: Run Sanity Testcases
         run: npm run test_chromeHeadless_allure_reporter
         if: always()
