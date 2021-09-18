@@ -24,10 +24,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Google Chrome # Using shell script to install Google Chrome
-        run: |
-          chmod +x ./scripts/InstallChrome.sh
-          ./scripts/InstallChrome.sh
+      # - name: Install Google Chrome # Using shell script to install Google Chrome
+      #   run: |
+      #     chmod +x ./scripts/InstallChrome.sh
+      #     ./scripts/InstallChrome.sh
 
       - name: Build with npm
         run: npm ci
