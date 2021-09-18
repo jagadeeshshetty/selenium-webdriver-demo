@@ -1,0 +1,52 @@
+{
+  "uid" : "4373593a0657c177",
+  "name" : "verify a file download by inspecting its head request @downloadHeader",
+  "fullName" : " File download v2.verify a file download by inspecting its head request @downloadHeader",
+  "historyId" : "99c57a243153c4c9dbd59c702e3892d7",
+  "time" : {
+    "start" : 1631981625812,
+    "stop" : 1631981625812,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'get' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'get' of undefined\n                    at DownloadPage.visit (pages/BasePage.js:19:31)\n                    at DownloadPage.load (pages/DownloadPage.js:13:20)\n                    at Context.<anonymous> (test/download-v2.spec.js:12:24)\n                    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " File download v2"
+  }, {
+    "name" : "testClass",
+    "value" : " File download v2"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify a file download by inspecting its head request @downloadHeader"
+  }, {
+    "name" : "package",
+    "value" : " File download v2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4373593a0657c177.json",
+  "parameterValues" : [ ]
+}

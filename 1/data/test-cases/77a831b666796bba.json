@@ -1,0 +1,46 @@
+{
+  "uid" : "77a831b666796bba",
+  "name" : "with invalid credentials @P3",
+  "fullName" : " Verify Login @authentication.with invalid credentials @P3",
+  "historyId" : "469f1b3aebcd398943bfb765915a4c84",
+  "time" : {
+    "start" : 1631981660075,
+    "stop" : 1631981660076,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "with invalid credentials @P3"
+  }, {
+    "name" : "package",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77a831b666796bba.json",
+  "parameterValues" : [ ]
+}

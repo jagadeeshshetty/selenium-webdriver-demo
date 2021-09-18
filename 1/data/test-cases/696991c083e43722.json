@@ -1,0 +1,62 @@
+{
+  "uid" : "696991c083e43722",
+  "name" : "with valid text file @sanity @P1 @textFileUpload",
+  "fullName" : " Verify file upload functionality @upload.with valid text file @sanity @P1 @textFileUpload",
+  "historyId" : "56e5efdb05d30afe479d30492b27b118",
+  "time" : {
+    "start" : 1631984117513,
+    "stop" : 1631984117514,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify file upload functionality @upload"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify file upload functionality @upload"
+  }, {
+    "name" : "testMethod",
+    "value" : "with valid text file @sanity @P1 @textFileUpload"
+  }, {
+    "name" : "package",
+    "value" : " Verify file upload functionality @upload"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a0d351e5a4250f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631984114985,
+        "stop" : 1631984114986,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f68f8706526e203e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631981640291,
+        "stop" : 1631981640291,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "696991c083e43722.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "92dc0a7af13951ba",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "fullName" : " Verify Login @authentication.with valid credentials @sanity @P1 @validLogin",
+  "historyId" : "d96bd066b2f213d41094c28adfef9d0f",
+  "time" : {
+    "start" : 1631984115058,
+    "stop" : 1631984115059,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "with valid credentials @sanity @P1 @validLogin"
+  }, {
+    "name" : "package",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92dc0a7af13951ba.json",
+  "parameterValues" : [ ]
+}

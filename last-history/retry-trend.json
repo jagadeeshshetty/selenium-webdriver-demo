@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 7,
+    "retry" : 4
+  }
+} ]
