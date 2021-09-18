@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 18 17:59:28 GMT 2021","Sat Sep 18 17:59:35 GMT 2021","6270","","Verify Login @authentication","","Verify Login @authentication","with valid credentials @sanity @P1 @validLogin","with valid credentials @sanity @P1 @validLogin",""
+"passed","Sat Sep 18 17:59:35 GMT 2021","Sat Sep 18 17:59:36 GMT 2021","1103","","Verify file upload functionality @upload","","Verify file upload functionality @upload","with valid text file @sanity @P1 @textFileUpload","with valid text file @sanity @P1 @textFileUpload",""

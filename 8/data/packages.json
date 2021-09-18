@@ -1,0 +1,39 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Verify Login @authentication",
+    "children" : [ {
+      "name" : "with valid credentials @sanity @P1 @validLogin",
+      "uid" : "764816601b2c3451",
+      "parentUid" : "48963139e4ef3d3d023681c8cd7bf187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987968775,
+        "stop" : 1631987975045,
+        "duration" : 6270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "48963139e4ef3d3d023681c8cd7bf187"
+  }, {
+    "name" : "Verify file upload functionality @upload",
+    "children" : [ {
+      "name" : "with valid text file @sanity @P1 @textFileUpload",
+      "uid" : "adcf89dc1567baa6",
+      "parentUid" : "ddb79046d627ef7b54a0868395fac8df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987975052,
+        "stop" : 1631987976155,
+        "duration" : 1103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ddb79046d627ef7b54a0868395fac8df"
+  } ],
+  "name" : "packages"
+}
