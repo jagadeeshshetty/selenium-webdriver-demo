@@ -49,7 +49,7 @@ jobs:
       #   run: mvn dependency:go-offline compile compiler:testCompile
 
       - name: Run Sanity Testcases
-        run: npm run test_chromeHeadless_parallel_allure_reporter
+        run: npm run test_chromeHeadless_allure_reporter
         if: always()
         continue-on-error: true
 
