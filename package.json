@@ -11,7 +11,7 @@
     "test:chrome:tag": "BROWSER=chrome node node_modules/mocha/bin/mocha --reporter mochawesome --reporter-options reportFilename=index.html --grep",
     "test:chrome_parallel": "BROWSER=chrome node node_modules/.bin/mocha-parallel-tests --reporter mochawesome",
     "test_chrome_parallel_allure_reporter": "BROWSER=chrome node node_modules/.bin/mocha-parallel-tests --reporter mocha-allure-reporter",
-    "test_chromeHeadless_parallel_allure_reporter": "BROWSER=chromeHeadless node node_modules/.bin/mocha-parallel-tests --reporter mocha-allure-reporter --grep authentication",
+    "test_chromeHeadless_parallel_allure_reporter": "BROWSER=chromeHeadless node node_modules/.bin/mocha-parallel-tests --reporter mocha-allure-reporter",
     "test_chromeHeadless_allure_reporter": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha --reporter mocha-allure-reporter --grep P1",
     "test:chrome_win": "setx BROWSER 'chrome' && node node_modules/mocha/bin/mocha --reporter mochawesome",
     "test:chromeHeadless": "BROWSER=chromeHeadless node node_modules/mocha/bin/mocha --reporter mochawesome",
