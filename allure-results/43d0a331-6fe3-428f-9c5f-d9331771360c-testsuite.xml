@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631981625811' stop='1631981625813'>
+    <name> File download v2</name>
+    <title> File download v2</title>
+    <test-cases>
+        <test-case start='1631981625812' status='broken' stop='1631981625812'>
+            <name>verify a file download by inspecting its head request @downloadHeader</name>
+            <title>verify a file download by inspecting its head request @downloadHeader</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'get' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'get' of undefined
+                    at DownloadPage.visit (pages/BasePage.js:19:31)
+                    at DownloadPage.load (pages/DownloadPage.js:13:20)
+                    at Context.&lt;anonymous> (test/download-v2.spec.js:12:24)
+                    at processImmediate (internal/timers.js:461:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

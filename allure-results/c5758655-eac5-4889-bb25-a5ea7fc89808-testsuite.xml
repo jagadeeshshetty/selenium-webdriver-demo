@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631981660075' stop='1631981660077'>
+    <name> Verify Login @authentication</name>
+    <title> Verify Login @authentication</title>
+    <test-cases>
+        <test-case start='1631981660075' status='passed' stop='1631981660075'>
+            <name>with valid credentials @sanity @P1 @validLogin</name>
+            <title>with valid credentials @sanity @P1 @validLogin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631981660075' status='passed' stop='1631981660076'>
+            <name>with invalid credentials @P3</name>
+            <title>with invalid credentials @P3</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631981660076' status='passed' stop='1631981660077'>
+            <name>capture complete page and element screenshot @P3 @elementScreenshot</name>
+            <title>capture complete page and element screenshot @P3 @elementScreenshot</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

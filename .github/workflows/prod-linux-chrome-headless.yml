@@ -1,0 +1,83 @@
+name: allure-ci-linux-chrome-headless
+
+on:
+  push:
+    branches: [feature/mocha-allure-reporter]
+    # branches-ignore:
+    #   - "!master"
+
+jobs:
+  autotests:
+    name: Run tests and generate Allure Report
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+        # node-version: [10.x, 12.x, 14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Google Chrome # Using shell script to install Google Chrome
+        run: |
+          chmod +x ./scripts/InstallChrome.sh
+          ./scripts/InstallChrome.sh
+
+      - name: Build with npm
+        run: npm ci
+
+      - name: Run Sanity Testcases
+        run: npm run test_chromeHeadless_parallel_allure_reporter
+
+      # - uses: actions/cache@v1
+      #   with:
+      #     path: |
+      #       ~/.m2/repository
+      #     key: ${{ runner.os }}-${{ github.workflow }}-${{ hashFiles('**/pom.xml') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-${{ github.workflow }}-
+
+      # - name: Set up JDK
+      #   uses: actions/setup-java@v1
+      #   with:
+      #     java-version: 11
+
+      # - name: Install dependencies
+      #   run: mvn dependency:go-offline compile compiler:testCompile
+
+      - name: Run Sanity Testcases
+        run: npm run test_chromeHeadless_parallel_allure_reporter
+        if: always()
+        continue-on-error: true
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history

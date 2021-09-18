@@ -9,6 +9,14 @@ _-- Simon Stewart._
 
 ## Release Notes
 
+### 1.13.0
+
+- Allure reporting support.
+  - Install dependency using `npm install mocha-allure-reporter` command.
+  - Use `mocha --reporter mocha-allure-reporter` as mocha reporter.
+  - Generate the report using `allure serve allure-results` command.
+- Tbd
+
 ### 1.12.4
 
 - Added `download file with header` test case.
