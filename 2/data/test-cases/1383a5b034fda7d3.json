@@ -1,0 +1,74 @@
+{
+  "uid" : "1383a5b034fda7d3",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "fullName" : " Verify Login @authentication.with valid credentials @sanity @P1 @validLogin",
+  "historyId" : "d96bd066b2f213d41094c28adfef9d0f",
+  "time" : {
+    "start" : 1631984529770,
+    "stop" : 1631984529770,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "with valid credentials @sanity @P1 @validLogin"
+  }, {
+    "name" : "package",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6e21ac2b02a59cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631981660075,
+        "stop" : 1631981660075,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "915834716c09c8ad",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1//#testresult/915834716c09c8ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631984117363,
+          "stop" : 1631984117363,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1383a5b034fda7d3.json",
+  "parameterValues" : [ ]
+}

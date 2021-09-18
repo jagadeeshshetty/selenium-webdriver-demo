@@ -1,0 +1,71 @@
+[ {
+  "uid" : "66d5016b3178cfe3",
+  "name" : "verify a file download by inspecting its head request @downloadHeader",
+  "time" : {
+    "start" : 1631981625812,
+    "stop" : 1631981625812,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "db06f46c93d9a2a8",
+  "name" : "hidden element @P2",
+  "time" : {
+    "start" : 1631981641713,
+    "stop" : 1631981641714,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "401a46e8aa738bab",
+  "name" : "should automatically download to local disk @textFileDownload",
+  "time" : {
+    "start" : 1631981644211,
+    "stop" : 1631981644212,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6742bcc8ffa38bc5",
+  "name" : "with valid text file @sanity @P1 @textFileUpload",
+  "time" : {
+    "start" : 1631984529730,
+    "stop" : 1631984529731,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1383a5b034fda7d3",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "time" : {
+    "start" : 1631984529770,
+    "stop" : 1631984529770,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea790ca0c1d93886",
+  "name" : "with invalid credentials @P3",
+  "time" : {
+    "start" : 1631981660075,
+    "stop" : 1631981660076,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b86584e03863c334",
+  "name" : "capture complete page and element screenshot @P3 @elementScreenshot",
+  "time" : {
+    "start" : 1631981660076,
+    "stop" : 1631981660077,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

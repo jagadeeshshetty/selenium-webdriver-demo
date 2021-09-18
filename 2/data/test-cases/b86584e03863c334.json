@@ -1,0 +1,66 @@
+{
+  "uid" : "b86584e03863c334",
+  "name" : "capture complete page and element screenshot @P3 @elementScreenshot",
+  "fullName" : " Verify Login @authentication.capture complete page and element screenshot @P3 @elementScreenshot",
+  "historyId" : "1ae8a6acfa11666e98dc656958c8b482",
+  "time" : {
+    "start" : 1631981660076,
+    "stop" : 1631981660077,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "capture complete page and element screenshot @P3 @elementScreenshot"
+  }, {
+    "name" : "package",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cc4a26581664972",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1//#testresult/cc4a26581664972",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631981660076,
+          "stop" : 1631981660077,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b86584e03863c334.json",
+  "parameterValues" : [ ]
+}
