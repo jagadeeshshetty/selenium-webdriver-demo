@@ -1,0 +1,91 @@
+{
+  "uid" : "f954de85a79af7f1",
+  "name" : "should automatically download to local disk @textFileDownload",
+  "fullName" : " File download.should automatically download to local disk @textFileDownload",
+  "historyId" : "bd55f8891df2932b497bab1f200e54eb",
+  "time" : {
+    "start" : 1631987504888,
+    "stop" : 1631987504888,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'quit' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'quit' of undefined\n                    at Context.<anonymous> (test/download.spec.js:43:22)\n                    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " File download"
+  }, {
+    "name" : "testClass",
+    "value" : " File download"
+  }, {
+    "name" : "testMethod",
+    "value" : "should automatically download to local disk @textFileDownload"
+  }, {
+    "name" : "package",
+    "value" : " File download"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9902fd81fac23b1e",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/5//#testresult/9902fd81fac23b1e",
+        "status" : "broken",
+        "statusDetails" : "Cannot read property 'quit' of undefined",
+        "time" : {
+          "start" : 1631987193983,
+          "stop" : 1631987193983,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "401a46e8aa738bab",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/2//#testresult/401a46e8aa738bab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631981644211,
+          "stop" : 1631981644212,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b355ede7f4a93f6a",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1//#testresult/b355ede7f4a93f6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631981644211,
+          "stop" : 1631981644212,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f954de85a79af7f1.json",
+  "parameterValues" : [ ]
+}

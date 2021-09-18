@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo",
+  "buildOrder" : 6,
+  "buildName" : "GitHub Actions Run #1249035781",
+  "buildUrl" : "https://github.com/jagadeeshshetty/selenium-webdriver-demo/actions/runs/1249035781",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/6/"
+} ]

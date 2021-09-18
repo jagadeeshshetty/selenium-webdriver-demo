@@ -1,0 +1,116 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : " File download v2",
+    "children" : [ {
+      "name" : "verify a file download by inspecting its head request @downloadHeader",
+      "uid" : "3ea6eb703f4b6ef9",
+      "parentUid" : "8bf1f298008a06e8a426bbfcc3abdca0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631987501503,
+        "stop" : 1631987501504,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8bf1f298008a06e8a426bbfcc3abdca0"
+  }, {
+    "name" : " File download",
+    "children" : [ {
+      "name" : "should automatically download to local disk @textFileDownload",
+      "uid" : "f954de85a79af7f1",
+      "parentUid" : "0e5f98903dbdd034850e89871d0e1d52",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631987504888,
+        "stop" : 1631987504888,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0e5f98903dbdd034850e89871d0e1d52"
+  }, {
+    "name" : " Verify Login @authentication",
+    "children" : [ {
+      "name" : "with valid credentials @sanity @P1 @validLogin",
+      "uid" : "5fdfbc0ce5b9ee3b",
+      "parentUid" : "caebcac4aa6c0ab12841d3ae483d23fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987515396,
+        "stop" : 1631987515397,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "with invalid credentials @P3",
+      "uid" : "605ebe6bdc7a7d86",
+      "parentUid" : "caebcac4aa6c0ab12841d3ae483d23fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987515397,
+        "stop" : 1631987515397,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "capture complete page and element screenshot @P3 @elementScreenshot",
+      "uid" : "988f201ed8949cdc",
+      "parentUid" : "caebcac4aa6c0ab12841d3ae483d23fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987515397,
+        "stop" : 1631987515397,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "caebcac4aa6c0ab12841d3ae483d23fa"
+  }, {
+    "name" : " Verify Dynamic Loading @dynamicLoad",
+    "children" : [ {
+      "name" : "hidden element @P2",
+      "uid" : "b1aadb784495de51",
+      "parentUid" : "f51abc46d04b3d3eaf1a773b4e97072a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987515637,
+        "stop" : 1631987515638,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f51abc46d04b3d3eaf1a773b4e97072a"
+  }, {
+    "name" : " Verify file upload functionality @upload",
+    "children" : [ {
+      "name" : "with valid text file @sanity @P1 @textFileUpload",
+      "uid" : "19b3f53c443b23a4",
+      "parentUid" : "e0eb2a6bc150f7a7d894034eed16a04c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987517375,
+        "stop" : 1631987517375,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e0eb2a6bc150f7a7d894034eed16a04c"
+  } ],
+  "name" : "packages"
+}

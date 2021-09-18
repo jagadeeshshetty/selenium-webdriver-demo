@@ -1,0 +1,93 @@
+{
+  "uid" : "3ea6eb703f4b6ef9",
+  "name" : "verify a file download by inspecting its head request @downloadHeader",
+  "fullName" : " File download v2.verify a file download by inspecting its head request @downloadHeader",
+  "historyId" : "99c57a243153c4c9dbd59c702e3892d7",
+  "time" : {
+    "start" : 1631987501503,
+    "stop" : 1631987501504,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'get' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'get' of undefined\n                    at DownloadPage.visit (pages/BasePage.js:19:31)\n                    at DownloadPage.load (pages/DownloadPage.js:13:20)\n                    at Context.<anonymous> (test/download-v2.spec.js:12:24)\n                    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " File download v2"
+  }, {
+    "name" : "testClass",
+    "value" : " File download v2"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify a file download by inspecting its head request @downloadHeader"
+  }, {
+    "name" : "package",
+    "value" : " File download v2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7e94190fb3809da6",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/5//#testresult/7e94190fb3809da6",
+        "status" : "broken",
+        "statusDetails" : "Cannot read property 'get' of undefined",
+        "time" : {
+          "start" : 1631987191804,
+          "stop" : 1631987191804,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "66d5016b3178cfe3",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/2//#testresult/66d5016b3178cfe3",
+        "status" : "broken",
+        "statusDetails" : "Cannot read property 'get' of undefined",
+        "time" : {
+          "start" : 1631981625812,
+          "stop" : 1631981625812,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4373593a0657c177",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1//#testresult/4373593a0657c177",
+        "status" : "broken",
+        "statusDetails" : "Cannot read property 'get' of undefined",
+        "time" : {
+          "start" : 1631981625812,
+          "stop" : 1631981625812,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3ea6eb703f4b6ef9.json",
+  "parameterValues" : [ ]
+}

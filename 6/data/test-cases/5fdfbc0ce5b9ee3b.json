@@ -1,0 +1,93 @@
+{
+  "uid" : "5fdfbc0ce5b9ee3b",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "fullName" : " Verify Login @authentication.with valid credentials @sanity @P1 @validLogin",
+  "historyId" : "d96bd066b2f213d41094c28adfef9d0f",
+  "time" : {
+    "start" : 1631987515396,
+    "stop" : 1631987515397,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testClass",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "testMethod",
+    "value" : "with valid credentials @sanity @P1 @validLogin"
+  }, {
+    "name" : "package",
+    "value" : " Verify Login @authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "437df234ddc3a1d5",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/5//#testresult/437df234ddc3a1d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631987200180,
+          "stop" : 1631987200180,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a11126efbc1967b3",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/3//#testresult/a11126efbc1967b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631986496975,
+          "stop" : 1631986496976,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1383a5b034fda7d3",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/2//#testresult/1383a5b034fda7d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631984529770,
+          "stop" : 1631984529770,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "915834716c09c8ad",
+        "reportUrl" : "https://jagadeeshshetty.github.io/selenium-webdriver-demo/1//#testresult/915834716c09c8ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631984117363,
+          "stop" : 1631984117363,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5fdfbc0ce5b9ee3b.json",
+  "parameterValues" : [ ]
+}
