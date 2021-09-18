@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 18 17:34:56 GMT 2021","Sat Sep 18 17:34:56 GMT 2021","0",""," Verify Login @authentication",""," Verify Login @authentication","with invalid credentials @P3","with invalid credentials @P3",""
+"passed","Sat Sep 18 17:34:56 GMT 2021","Sat Sep 18 17:34:56 GMT 2021","1",""," Verify Login @authentication",""," Verify Login @authentication","with valid credentials @sanity @P1 @validLogin","with valid credentials @sanity @P1 @validLogin",""
+"passed","Sat Sep 18 17:34:56 GMT 2021","Sat Sep 18 17:34:56 GMT 2021","0",""," Verify Login @authentication",""," Verify Login @authentication","capture complete page and element screenshot @P3 @elementScreenshot","capture complete page and element screenshot @P3 @elementScreenshot",""

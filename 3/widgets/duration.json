@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a2d89eee0ba02c1",
+  "name" : "with invalid credentials @P3",
+  "time" : {
+    "start" : 1631986496976,
+    "stop" : 1631986496976,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a11126efbc1967b3",
+  "name" : "with valid credentials @sanity @P1 @validLogin",
+  "time" : {
+    "start" : 1631986496975,
+    "stop" : 1631986496976,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159d96c624ba291f",
+  "name" : "capture complete page and element screenshot @P3 @elementScreenshot",
+  "time" : {
+    "start" : 1631986496976,
+    "stop" : 1631986496976,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : " Verify Login @authentication",
+    "children" : [ {
+      "name" : "with valid credentials @sanity @P1 @validLogin",
+      "uid" : "a11126efbc1967b3",
+      "parentUid" : "2e37c93f9fb05de86e2b1a371cd4c9af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986496975,
+        "stop" : 1631986496976,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "with invalid credentials @P3",
+      "uid" : "a2d89eee0ba02c1",
+      "parentUid" : "2e37c93f9fb05de86e2b1a371cd4c9af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986496976,
+        "stop" : 1631986496976,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "capture complete page and element screenshot @P3 @elementScreenshot",
+      "uid" : "159d96c624ba291f",
+      "parentUid" : "2e37c93f9fb05de86e2b1a371cd4c9af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986496976,
+        "stop" : 1631986496976,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2e37c93f9fb05de86e2b1a371cd4c9af"
+  } ],
+  "name" : "suites"
+}
